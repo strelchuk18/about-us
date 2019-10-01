@@ -1,0 +1,89 @@
+body {
+	background: white;
+	font-family: 'SFUI Display';
+}
+
+@font-face{
+
+font-family: 'SF-UI-Display-Black';
+
+src: url('/var/www/about_us/assets/Fonts/SF-UI-Display-Light.ttf');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+.header {
+	/* Style for "Header" */
+
+width: 2018px;
+
+height: 217px;
+}
+
+.backgroungheader {
+	/* Style for "Background" */
+
+width: 2018px;
+
+height: 111px;
+
+background-color: #ffffff;
+} 
+
+.container {
+  width: 100%;
+  max-width: 1024px; /*максимальная ширина может иметь другое значение*/
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+ /*Header*/
+ /* Style for "Header" */
+header {
+width: 2018px;
+height: 217px;
+}
+.phoneicon {
+	/* Style for "Phone icon" */
+
+width: 35px;
+
+height: 34px;
+
+}
+/*juventa*/
+.juventa {
+/* Style for "JUVENTA  T" */
+
+width: 203px;
+
+height: 70px;
+
+color: #000000;
+
+font-family: "SF-UI-Display-Black";
+
+font-size: 48px;
+
+font-weight: 500;
+
+line-height: 35.97px;
+
+text-transform: uppercase;
+
+/* Text style for "JUVENTA  ," */
+
+letter-spacing: -2px;
+}
+
+.mainbackgr {
+	/* Style for "Background" */
+
+width: 1920px;
+
+height: 582px;
+
+background: url("/var/www/about_us/assets/images/banner_1.jpg");
+}
