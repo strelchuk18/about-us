@@ -7,7 +7,7 @@ body {
 
 font-family: 'SF-UI-Display-Black';
 
-src: url('/var/www/about_us/assets/Fonts/SF-UI-Display-Light.ttf');
+src: url('assets/Fonts/SF-UI-Display-Light.ttf');
 
 font-weight: normal;
 
@@ -16,24 +16,25 @@ font-style: normal;
 }
 .header {
 	/* Style for "Header" */
-
-width: 2018px;
-
-height: 217px;
+/* Style for "White head" */
+width: 100%;
+height: 111px;
+padding: 20px 55px;
 }
 
 .backgroungheader {
 	/* Style for "Background" */
-
-width: 2018px;
-
-height: 111px;
-
+width: 100%;
+height: 500px;
 background-color: #ffffff;
+display: flex;
+align-self: center;
+justify-content: space-between;
 } 
 
 .container {
   width: 100%;
+  height: 110px;
   max-width: 1024px; /*максимальная ширина может иметь другое значение*/
   padding: 0 15px;
   margin: 0 auto;
@@ -44,46 +45,108 @@ background-color: #ffffff;
 header {
 width: 2018px;
 height: 217px;
+
 }
+
 .phoneicon {
 	/* Style for "Phone icon" */
-
-width: 35px;
-
-height: 34px;
-
+width: 203px;
+height: 70px;
+line-height: 35.97px;
+display: inline;
+align-self: center;
+position: absolute;
 }
+
 /*juventa*/
 .juventa {
 /* Style for "JUVENTA  T" */
-
 width: 203px;
-
 height: 70px;
-
 color: #000000;
-
 font-family: "SF-UI-Display-Black";
-
 font-size: 48px;
-
 font-weight: 500;
-
 line-height: 35.97px;
-
 text-transform: uppercase;
-
+display: inline;
 /* Text style for "JUVENTA  ," */
-
 letter-spacing: -2px;
 }
 
-.mainbackgr {
-	/* Style for "Background" */
+/* Style for "Заказать з" */
+.call{
+width: 165px;
+height: 15px;
+color: #000000;
+font-family: "SFUI Display";
+font-size: 18px;
+font-weight: 500px;
+line-height: 29.98px;
+text-transform: uppercase;
 
-width: 1920px;
+display: inline;
+float: right;
+align-self: center;
+/* Text style for "З, аказать" */
+letter-spacing: -0.18px;
+    /* Style for "button" */
+
+}
+
+/* Style for "Background" */
+.mainbackgr {
+/* Style for "Main_banne" */
+
+width: 100px;
 
 height: 582px;
+display: inline;
+}
+.number {
+	/* Style for "(+ 3 8012)" */
+width: 187px;
+height: 16px;
+color: #000000;
+font-family: "SFUI Display-emibold";
+font-size: 18px;
+font-weight: 400;
+line-height: 29.98px;
+font-variant: small-caps;
+/* Text style for "(, + 3 801" */
+font-family: "SFUI Display";
+font-weight: 300;
+letter-spacing: -0.18px;
+/* Text style for "22 - 33 -" */
+font-family: "SF UI Display";
+font-weight: 600;
+letter-spacing: -0.18px;
+}
+.blockForImg img{
+width:100%;
+height:100%;
+}
+.button {
+width: 247px;
 
-background: url("/var/www/about_us/assets/images/banner_1.jpg");
+height: 42px;
+
+border: 3px solid #000000;
+display: inline;
+float: right;
+color: #000000;
+font-family: "SFUI Display";
+font-size: 18px;
+font-weight: 500px;
+line-height: 29.98px;
+text-transform: uppercase;
+}
+.textcenter {
+	text-align: center;
+}
+input { 
+    text-align: right; 
+}
+p.small {
+  line-height: 0.8;
 }
