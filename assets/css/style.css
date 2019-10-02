@@ -1,18 +1,101 @@
 body {
 	background: white;
-	font-family: 'SFUI Display';
+	font-family: 'SFUI-Display-Black';
 }
 
 @font-face{
+font-family: 'SFUI-Display-Black';
+src:url('assets/Fonts/SF-UI-Display-Black.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
 
-font-family: 'SF-UI-Display-Black';
+font-family: 'SFUI-Display-Bold';
+
+src: url('assets/Fonts/SF-UI-Display-Bold.ttf');
+
+font-weight: normal;
+
+font-style: normal;
+}
+@font-face{
+
+font-family: 'SFUI-Display-Heavy';
+
+src: url('assets/Fonts/SF-UI-Display-Heavy.ttf');
+
+font-weight: normal;
+
+font-style: normal;
+}
+@font-face{
+
+font-family: 'SFUI-Display-Light';
 
 src: url('assets/Fonts/SF-UI-Display-Light.ttf');
 
 font-weight: normal;
 
 font-style: normal;
+}
+@font-face{
 
+font-family: 'SFUI-Display-Medium';
+
+src: url('assets/Fonts/SF-UI-Display-Medium.ttf');
+
+font-weight: normal;
+
+font-style: normal;
+}
+@font-face{
+
+font-family: 'SFUI-Display-Regular';
+
+src: url('assets/Fonts/SF-UI-Display-Regular.ttf');
+
+font-weight: normal;
+
+font-style: normal;
+}
+@font-face{
+
+font-family: 'SFUI-Display-Semibold';
+
+src: url('assets/Fonts/SF-UI-Display-Semibold.ttf');
+
+font-weight: normal;
+
+font-style: normal;
+}
+@font-face{
+
+font-family: 'SFUI-Display-Thin';
+
+src: url('assets/Fonts/SF-UI-Display-Thin.ttf');
+
+font-weight: normal;
+
+font-style: normal;
+}
+@font-face{
+
+font-family: 'SFUI-Display-Ultralight';
+
+src: url('assets/Fonts/SF-UI-Display-Ultralight.ttf');
+
+font-weight: normal;
+
+font-style: normal;
+}
+.numbfont1 {
+	font-family: "SFUI-Display-Ultralight";
+	
+}
+.navfont {
+	font-family: "SFUI-Display-Thin";
+	font-size: 20px;
 }
 .header {
 	/* Style for "Header" */
@@ -52,10 +135,11 @@ height: 217px;
 	/* Style for "Phone icon" */
 width: 203px;
 height: 70px;
-line-height: 35.97px;
+line-height: 600%;
 display: inline;
 align-self: center;
 position: absolute;
+text-align: center;
 }
 
 /*juventa*/
@@ -64,7 +148,7 @@ position: absolute;
 width: 203px;
 height: 70px;
 color: #000000;
-font-family: "SF-UI-Display-Black";
+font-family: "SFUI-Display-Black";
 font-size: 48px;
 font-weight: 500;
 line-height: 35.97px;
@@ -79,14 +163,12 @@ letter-spacing: -2px;
 width: 165px;
 height: 15px;
 color: #000000;
-font-family: "SFUI Display";
+font-family: "SFUI-Display-Black";
 font-size: 18px;
 font-weight: 500px;
-line-height: 29.98px;
+line-height: 200%;
 text-transform: uppercase;
-
 display: inline;
-float: right;
 align-self: center;
 /* Text style for "З, аказать" */
 letter-spacing: -0.18px;
@@ -97,30 +179,51 @@ letter-spacing: -0.18px;
 /* Style for "Background" */
 .mainbackgr {
 /* Style for "Main_banne" */
-
+background: url(assets/images/Main_banner1.png);
 width: 100px;
 
 height: 582px;
 display: inline;
 }
+.block {
+    background: url(images/bg_left.gif) repeat-y,
+                #fff url(images/bg_right.gif) repeat-y 100% 0; 
+    padding: 10px; /* Поля вокруг текста */
+ }
 .number {
 	/* Style for "(+ 3 8012)" */
-width: 187px;
+width: 100%;
 height: 16px;
 color: #000000;
-font-family: "SFUI Display-emibold";
+font-family: "SFUI-Display-Black";
 font-size: 18px;
 font-weight: 400;
-line-height: 29.98px;
+line-height: 400%;
 font-variant: small-caps;
+display: inline;
+align-self: center;
+position: absolute;
+text-align: center;
+}
+.number1 {
 /* Text style for "(, + 3 801" */
-font-family: "SFUI Display";
+font-family: "SFUI-Display-Thin";
 font-weight: 300;
 letter-spacing: -0.18px;
+display: inline;
+align-self: center;
+
+text-align: center;
+}
+.number2 {
 /* Text style for "22 - 33 -" */
-font-family: "SF UI Display";
+font-family: "SFUI-Display-Black";
 font-weight: 600;
 letter-spacing: -0.18px;
+display: inline;
+align-self: center;
+
+text-align: center;
 }
 .blockForImg img{
 width:100%;
@@ -135,11 +238,13 @@ border: 3px solid #000000;
 display: inline;
 float: right;
 color: #000000;
-font-family: "SFUI Display";
+font-family: "SFUI-Display-Black";
 font-size: 18px;
 font-weight: 500px;
-line-height: 29.98px;
+line-height: 250%;
 text-transform: uppercase;
+text-align: center;
+
 }
 .textcenter {
 	text-align: center;
@@ -149,4 +254,67 @@ input {
 }
 p.small {
   line-height: 0.8;
+}
+.backheader {
+	/* Style for "blackheade" */
+width: 100%;
+height: 109px;
+background-color: #000000;
+border-image: url(assets/images/blackheader_backround.jpg);
+opacity: 0.55;
+}
+.transparent50 {
+    filter: alpha(Opacity=100);
+    opacity: 0.5; 
+   }
+.nav_link {
+	color: #fff;
+	text-decoration: none; 
+	display: inline;
+	font-family: 'SFUI-Display-Thin';
+  text-align: center;
+  align-self: center;
+}
+.nav_link:hover {
+	color: #ffa500;
+}
+.nav {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  display: inline;
+  font-family: 'SFUI-Display-Thin';
+  text-align: center;
+}
+.navbar li { display: inline;}
+.navsearch {
+	/* Style for "Поиск туро" */
+width: 200%;
+height: 14px;
+color: #ffffff;
+font-family: "SFUI-Display-Thin";
+font-size: 18px;
+font-weight: 300;
+line-height: 400%;
+text-transform: uppercase;
+/* Text style for "Поиск туро" */
+letter-spacing: -0.18px;
+}
+.navhotprice {
+	/* Style for "Горящая це" */
+width: 100%;
+height: 16px;
+color: #ffffff;
+font-family: "SFUI Display";
+font-size: 18px;
+font-weight: 300;
+line-height: 29.98px;
+text-transform: uppercase;
+/* Text style for "Г, орящая" */
+letter-spacing: -0.18px;
 }
