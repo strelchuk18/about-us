@@ -1,97 +1,64 @@
+@font-face{
+font-family: 'SFUI-Display-Black';
+src:url('../Fonts/SF-UI-Display-Black.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'SFUI-Display-Bold';
+src: url('../Fonts/SF-UI-Display-Bold.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'SFUI-Display-Heavy';
+src: url('../Fonts/SF-UI-Display-Heavy.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'SFUI-Display-Light';
+src: url('../Fonts/SF-UI-Display-Light.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'SFUI-Display-Medium';
+src: url('../Fonts/SF-UI-Display-Medium.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'SFUI-Display-Regular';
+src: url('../Fonts/SF-UI-Display-Regular.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'SFUI-Display-Semibold';
+src: url('../Fonts/SF-UI-Display-Semibold.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'SFUI-Display-Thin';
+src: url('../Fonts/SF-UI-Display-Thin.ttf');
+font-weight: normal;
+font-style: normal;
+}
+@font-face{
+font-family: 'SFUI-Display-Ultralight';
+src: url('assets/Fonts/SF-UI-Display-Ultralight.ttf');
+font-weight: normal;
+font-style: normal;
+}
 body {
 	background: white;
 	font-family: 'SFUI-Display-Black';
-}
-
-@font-face{
-font-family: 'SFUI-Display-Black';
-src:url('assets/Fonts/SF-UI-Display-Black.ttf');
-font-weight: normal;
-font-style: normal;
-}
-@font-face{
-
-font-family: 'SFUI-Display-Bold';
-
-src: url('assets/Fonts/SF-UI-Display-Bold.ttf');
-
-font-weight: normal;
-
-font-style: normal;
-}
-@font-face{
-
-font-family: 'SFUI-Display-Heavy';
-
-src: url('assets/Fonts/SF-UI-Display-Heavy.ttf');
-
-font-weight: normal;
-
-font-style: normal;
-}
-@font-face{
-
-font-family: 'SFUI-Display-Light';
-
-src: url('assets/Fonts/SF-UI-Display-Light.ttf');
-
-font-weight: normal;
-
-font-style: normal;
-}
-@font-face{
-
-font-family: 'SFUI-Display-Medium';
-
-src: url('assets/Fonts/SF-UI-Display-Medium.ttf');
-
-font-weight: normal;
-
-font-style: normal;
-}
-@font-face{
-
-font-family: 'SFUI-Display-Regular';
-
-src: url('assets/Fonts/SF-UI-Display-Regular.ttf');
-
-font-weight: normal;
-
-font-style: normal;
-}
-@font-face{
-
-font-family: 'SFUI-Display-Semibold';
-
-src: url('assets/Fonts/SF-UI-Display-Semibold.ttf');
-
-font-weight: normal;
-
-font-style: normal;
-}
-@font-face{
-
-font-family: 'SFUI-Display-Thin';
-
-src: url('assets/Fonts/SF-UI-Display-Thin.ttf');
-
-font-weight: normal;
-
-font-style: normal;
-}
-@font-face{
-
-font-family: 'SFUI-Display-Ultralight';
-
-src: url('assets/Fonts/SF-UI-Display-Ultralight.ttf');
-
-font-weight: normal;
-
-font-style: normal;
+	display: block;
 }
 .numbfont1 {
 	font-family: "SFUI-Display-Ultralight";
-	
 }
 .navfont {
 	font-family: "SFUI-Display-Thin";
@@ -104,7 +71,6 @@ width: 100%;
 height: 111px;
 padding: 20px 55px;
 }
-
 .backgroungheader {
 	/* Style for "Background" */
 width: 100%;
@@ -114,7 +80,6 @@ display: flex;
 align-self: center;
 justify-content: space-between;
 } 
-
 .container {
   width: 100%;
   height: 110px;
@@ -122,7 +87,6 @@ justify-content: space-between;
   padding: 0 15px;
   margin: 0 auto;
 }
-
  /*Header*/
  /* Style for "Header" */
 header {
@@ -140,6 +104,7 @@ display: inline;
 align-self: center;
 position: absolute;
 text-align: center;
+margin-left: 50px;
 }
 
 /*juventa*/
@@ -272,8 +237,6 @@ opacity: 0.55;
 	text-decoration: none; 
 	display: inline;
 	font-family: 'SFUI-Display-Thin';
-  text-align: center;
-  align-self: center;
 }
 .nav_link:hover {
 	color: #ffa500;
@@ -294,27 +257,75 @@ opacity: 0.55;
 .navbar li { display: inline;}
 .navsearch {
 	/* Style for "Поиск туро" */
-width: 200%;
+width: 150%;
 height: 14px;
 color: #ffffff;
 font-family: "SFUI-Display-Thin";
-font-size: 18px;
+font-size: 32px;
 font-weight: 300;
-line-height: 400%;
+line-height: 250%;
 text-transform: uppercase;
 /* Text style for "Поиск туро" */
 letter-spacing: -0.18px;
 }
-.navhotprice {
-	/* Style for "Горящая це" */
-width: 100%;
-height: 16px;
+.greenline {
+	/* Style for "Green line" */
+width: 196px;
+height: 7px;
+line-height: 550px;
+position: absolute;
+margin-left: 285px;
+}
+.aboutus {
+	/* Style for "О НАС" */
+width: 356px;
+height: 89px;
 color: #ffffff;
-font-family: "SFUI Display";
-font-size: 18px;
-font-weight: 300;
-line-height: 29.98px;
-text-transform: uppercase;
-/* Text style for "Г, орящая" */
-letter-spacing: -0.18px;
+font-family: 'SFUI-Display-Semibold';
+font-size: 120px;
+font-weight: 400;
+line-height: 48px;
+font-variant: small-caps;
+/* Text style for "О,  НАС" */
+letter-spacing: -1.2px;
+position: absolute;
+margin-left: 285px;
+bottom: 60%;
+}
+.part1 {
+/* Style for "white_back" */
+width: 1920px;
+height: 2000px;
+position: absolute;
+}
+.greenline1 {
+	/* Style for "Green line" */
+width: 196px;
+height: 7px;
+line-height: 200px;
+position: absolute;
+margin-left: 295px;
+}
+.part1text {
+	/* Style for "Туристичес" */
+width: 100%;
+height: 100%;
+color: #000000;
+font-family: 'SFUI-Display-Regular';
+font-size: 35px;
+font-weight: 400;
+font-variant: small-caps;
+margin-left: 295px;
+position: absolute;
+overflow-x:hidden;
+/* Text style for "Туристичес" */
+letter-spacing: -1.2px;
+}
+.part11 {
+/* Style for "white_back" */
+width: 1920px;
+height: 2000px;
+position: absolute;
+line-height: 300%;
+margin: 200px 10px;
 }
