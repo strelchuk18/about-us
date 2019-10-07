@@ -48,7 +48,7 @@ font-style: normal;
 }
 @font-face{
 font-family: 'SFUI-Display-Ultralight';
-src: url('assets/Fonts/SF-UI-Display-Ultralight.ttf');
+src: url('../Fonts/SF-UI-Display-Ultralight.ttf');
 font-weight: normal;
 font-style: normal;
 }
@@ -209,7 +209,7 @@ font-weight: 500px;
 line-height: 250%;
 text-transform: uppercase;
 text-align: center;
-
+margin-top: 15px;
 }
 .textcenter {
 	text-align: center;
@@ -674,4 +674,197 @@ height: 129px;
 float: right;
 padding-right: 150px;
 padding-top: 200px; 
+}
+.footer {
+  /* Style for "Footer" */
+width: 1923px;
+height: 642px;
+}
+.footerbackgr {
+  /* Style for "background" */
+width: 1923px;
+height: 642px;
+background-color: #05776f;
+float: none;
+margin-top: 2100px;
+}
+.fbicon {
+  /* Style for "fb_icon" */
+width: 55px;
+height: 55px;
+float: none;
+padding-top: 70px;
+margin-left: 230px;
+display: inline;
+align-self: center;
+position: absolute;
+text-align: center;
+}
+.vkicon {
+/* Style for "vk_icon" */
+width: 54px;
+height: 54px;
+float: none;
+padding-top: 70px;
+margin-left: 370px;
+display: inline;
+align-self: center;
+position: absolute;
+text-align: center;
+}
+.instaicon {
+  /* Style for "insta_icon" */
+width: 56px;
+height: 56px;
+float: none;
+padding-top: 70px;
+margin-left: 300px;
+display: inline;
+align-self: center;
+position: absolute;
+text-align: center;
+}
+.footertext1 {
+  /* Style for "Предлагаем" */
+width: 248px;
+height: 71px;
+color: #ffffff;
+font-family: 'SFUI-Display-Light';
+font-size: 14px;
+font-weight: 300;
+line-height: 30px;
+text-transform: uppercase;
+/* Text style for "Предлагаем" */
+letter-spacing: -0.35px;
+margin-left: 232px;
+padding-top: 142px;
+}
+.footertext2 {
+  /* Style for "Подписка н" */
+width: 159px;
+height: 13px;
+color: #ffffff;
+font-family: 'SFUI-Display-Light';
+font-size: 14px;
+font-weight: 300;
+line-height: 30px;
+text-transform: uppercase;
+/* Text style for "П, одписка" */
+letter-spacing: -0.35px;
+margin-left: 232px;
+padding-top: 152px;
+}
+.emailform {
+  /* Style for "Email_form" */
+width: 301px;
+height: 46px;
+background-color: #ffffff;
+margin-left: 230px;
+margin-top: 23px;
+}
+.textemail {
+  /* Style for "введите ва" */
+width: 136px;
+height: 13px;
+color: #000000;
+font-family: 'SFUI-Display-Light';
+font-size: 14px;
+font-weight: 300;
+line-height: 42px;
+text-transform: uppercase;
+/* Text style for "в, ведите" */
+letter-spacing: -0.35px;
+float: none;
+margin-left: 30%;
+}
+.footerbutton {
+  /* Style for "button" */
+width: 196px;
+height: 41px;
+background-color: #07aba0;
+margin-left: 230px;
+margin-top: 23px;
+}
+.footerbuttontext {
+  /* Style for "подписатьс" */
+width: 95px;
+height: 13px;
+color: #ffffff;
+font-family: 'SFUI-Display-Light';
+font-size: 14px;
+font-weight: 300;
+line-height: 42px;
+text-transform: uppercase;
+/* Text style for "подписатьс" */
+letter-spacing: -0.35px;
+float: none;
+margin-left: 25%;
+}
+.footerourservice {
+  /* Style for "Наши услуг" */
+height: 14px;
+color: #ffffff;
+font-family: 'SFUI-Display-Semibold';
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+/* Text style for "Н, аши усл" */
+letter-spacing: -0.45px;
+float: left;
+padding-top: 89px;
+margin-left: 611px;
+align-self: center;
+text-align: center;
+}
+.albania {
+  /* Style for "Албания" */
+width: 62px;
+height: 11px;
+color: #ffffff;
+font-family: 'SFUI-Display-Semibold';
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+/* Text style for "Албания" */
+letter-spacing: -0.35px;
+margin-left: -73px;
+line-height: 50px;
+display: flex;
+flex-direction: unset;
+float: left;
+padding-top: 65px;
+}
+.salefoot {
+  /* Style for "Продажа ту" */
+width: 113px;
+height: 13px;
+color: #ffffff;
+font-family: 'SFUI-Display-Semibold';
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+/* Text style for "Продажа ту" */
+letter-spacing: -0.35px;
+margin-left: -125px;
+line-height: 50px;
+display: flex;
+flex-direction: unset;
+float: left;
+padding-top: 125px;
+}
+.footercountry {
+  /* Style for "Наши услуг" */
+height: 14px;
+color: #ffffff;
+font-family: 'SFUI-Display-Semibold';
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+/* Text style for "Н, аши усл" */
+letter-spacing: -0.45px;
+float: left;
+padding-top: 89px;
+margin-left: 169px;
+align-self: center;
+text-align: center;
 }
