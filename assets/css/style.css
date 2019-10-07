@@ -647,7 +647,7 @@ display: inline;
 }
 .ourpartners {
 /* Style for "Наши партн" */
-
+width: 460px;
 height: 38px;
 color: #000000;
 font-family: 'SFUI-Display-Semibold';
@@ -695,7 +695,6 @@ height: 55px;
 float: none;
 padding-top: 70px;
 margin-left: 230px;
-display: inline;
 align-self: center;
 position: absolute;
 text-align: center;
@@ -707,7 +706,6 @@ height: 54px;
 float: none;
 padding-top: 70px;
 margin-left: 370px;
-display: inline;
 align-self: center;
 position: absolute;
 text-align: center;
@@ -719,7 +717,6 @@ height: 56px;
 float: none;
 padding-top: 70px;
 margin-left: 300px;
-display: inline;
 align-self: center;
 position: absolute;
 text-align: center;
@@ -829,7 +826,6 @@ text-transform: uppercase;
 letter-spacing: -0.35px;
 margin-left: -73px;
 line-height: 50px;
-display: flex;
 flex-direction: unset;
 float: left;
 padding-top: 65px;
