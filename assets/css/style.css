@@ -222,16 +222,16 @@ p.small {
 }
 .backheader {
 	/* Style for "blackheade" */
-width: 100%;
-height: 109px;
-background-color: #000000;
-border-image: url(assets/images/blackheader_backround.jpg);
-opacity: 0.55;
+  width: 100%;
+  height: 109px;
+  background-color: #000000;
+  border-image: url(assets/images/blackheader_backround.jpg);
+  opacity: 0.55;
 }
 .transparent50 {
-    filter: alpha(Opacity=100);
-    opacity: 0.5; 
-   }
+  filter: alpha(Opacity=100);
+  opacity: 0.5; 
+ }
 .nav_link {
 	color: #fff;
 	text-decoration: none; 
@@ -254,10 +254,12 @@ opacity: 0.55;
   font-family: 'SFUI-Display-Thin';
   text-align: center;
 }
-.navbar li { display: inline;}
+.navbar li { 
+  display: inline;
+}
 .navsearch {
 	/* Style for "Поиск туро" */
-width: 150%;
+width: 142%;
 height: 14px;
 color: #ffffff;
 font-family: "SFUI-Display-Thin";
@@ -266,7 +268,7 @@ font-weight: 300;
 line-height: 250%;
 text-transform: uppercase;
 /* Text style for "Поиск туро" */
-letter-spacing: -0.18px;
+letter-spacing: 2.18px;
 }
 .greenline {
 	/* Style for "Green line" */
@@ -295,15 +297,15 @@ bottom: 60%;
 .part1 {
 /* Style for "white_back" */
 width: 1920px;
-height: 2000px;
-position: absolute;
+height: 800px;
+
 }
 .greenline1 {
 	/* Style for "Green line" */
 width: 196px;
 height: 7px;
 line-height: 200px;
-position: absolute;
+
 margin-left: 295px;
 }
 .part1text {
@@ -316,7 +318,7 @@ font-size: 35px;
 font-weight: 400;
 font-variant: small-caps;
 margin-left: 295px;
-position: absolute;
+
 overflow-x:hidden;
 /* Text style for "Туристичес" */
 letter-spacing: -1.2px;
@@ -324,8 +326,352 @@ letter-spacing: -1.2px;
 .part11 {
 /* Style for "white_back" */
 width: 1920px;
-height: 2000px;
-position: absolute;
+height: 800px;
+
 line-height: 300%;
 margin: 200px 10px;
+}
+.mainbackgr1 {
+/* Style for "Main_banne" */
+/* Style for "banner_1" */
+width: 1920px;
+height: 410px;
+line-height: 500%;
+margin-top: 150px;
+}
+.juventatravel {
+	/* Style for "Ювентра Тр" */
+width: 100%;	
+color: #ffffff;
+font-family: 'SFUI-Display-Heavy';
+font-size: 59px;
+font-weight: 400;
+line-height: 410px;
+text-transform: uppercase;
+/* Text style for "Ювентра Тр" */
+letter-spacing: -1.48px;
+}
+
+.mainbackgr1 .juventatravel {
+	/* Style for "Main_banne" */
+  background: url(../images/banner_1.jpg);
+  width: 300%;
+  height: 100%;
+  
+  }
+.juventatext{
+  margin-left: 110px;
+}
+.part2 {
+  /* Style forheight: 1643px; "Part_1-О н" */
+width: 1920px;
+height: 260px;
+}
+.greenline2 {
+  /* Style for "Green line" */
+width: 196px;
+height: 7px;
+line-height: 200px;
+margin-left: 295px;
+}
+.ourservice {
+  /* Style for "Наши услуг" */
+width: 390px;
+height: 40px;
+color: #000000;
+font-family: 'SFUI-Display-Semibold';
+font-size: 52px;
+font-weight: 400;
+line-height: 276px;
+text-transform: uppercase;
+/* Text style for "Н, аши усл" */
+letter-spacing: -1.3px;
+margin-left: 292px;
+}
+.saletours{
+  /* Style for "Продажа ту" */
+width: 601px;
+height: 539px;
+margin-left: 100px;
+float: left;
+}
+.saletours1 {
+/* Style for "background" */
+width: 601px;
+height: 329px;
+background: url(../images/backgroundtours.jpg);
+line-height: 10px;
+}
+.whiteframetours {
+/* Style for "white fram" */
+width: 595px;
+height: 210px;
+border: 3px solid #4d4d4d;
+}
+.greenline3 {
+/* Style for "green line" */
+width: 149px;
+height: 7px;
+margin-left: 90px;
+padding-top: 33px;
+}
+.saletourstext {
+  /* Style for "Продажа ту" */
+width: 100;
+height: 45px;
+color: #000000;
+font-family: 'SFUI-Display-Semibold';
+font-size: 52px;
+font-weight: 400;
+line-height: 72px;
+text-transform: uppercase;
+/* Text style for "Продажа ту" */
+letter-spacing: -1.3px;
+padding-top: 43px;
+margin-left: 90px;
+}
+.travelsim {
+  /* Style for "Travelsim" */
+width: 601px;
+height: 539px;
+float: right;
+padding-right: 80px;
+}
+.travelsim1 {
+  /* Style for "background" */
+width: 601px;
+height: 329px;
+background: url(../images/background_Travelsim.jpg);
+}
+.whiteframetravelsim {
+/* Style for "white fram" */
+width: 595px;
+height: 210px;
+border: 3px solid #4d4d4d;
+}
+.greenline4 {
+/* Style for "green line" */
+width: 149px;
+height: 7px;
+margin-left: 90px;
+padding-top: 33px;
+}
+.travelsimtext {
+  /* Style for "TravelSim" */
+width: 262px;
+height: 39px;
+color: #000000;
+font-family: 'SFUI-Display-Semibold';
+font-size: 52px;
+font-weight: 400;
+line-height: 72px;
+text-transform: uppercase;
+/* Text style for "T, ravelSi" */
+letter-spacing: -1.3px;
+padding-top: 43px;
+margin-left: 90px;
+}
+.aviaticket {
+  /* Style for "Авиабилеты" */
+width: 601px;
+height: 539px;
+margin-left: 100px;
+float: left;
+padding-top: 70px;
+}
+.aviaticket1 {
+  /* Style for "background" */
+width: 601px;
+height: 329px;
+background: url(../images/backgroundtickets.jpg);
+}
+.whiteframeaviaticket {
+  /* Style for "white fram" */
+width: 595px;
+height: 210px;
+border: 3px solid #4d4d4d;
+}
+.greenline5 {
+/* Style for "green line" */
+width: 149px;
+height: 7px;
+margin-left: 90px;
+padding-top: 33px;
+}
+.aviatickettext {
+  /* Style for "Авиабилеты" */
+width: 342px;
+height: 38px;
+color: #000000;
+font-family: 'SFUI-Display-Semibold';
+font-size: 52px;
+font-weight: 400;
+line-height: 72px;
+text-transform: uppercase;
+/* Text style for "А, виабиле" */
+letter-spacing: -1.3px;
+padding-top: 43px;
+margin-left: 90px;
+}
+.insurance {
+/* Style for "Страховани" */
+width: 601px;
+height: 539px;
+float: right;
+padding-right: 80px;
+padding-top: 70px;
+}
+.insurance1 {
+/* Style for "background" */
+width: 601px;
+height: 329px;
+background: url(../images/backgroundinsurance.jpg);
+}
+.whiteframeinsurance {
+/* Style for "white fram" */
+width: 595px;
+height: 210px;
+border: 3px solid #4d4d4d;
+}
+.greenline6 {
+/* Style for "green line" */
+width: 149px;
+height: 7px;
+margin-left: 90px;
+padding-top: 33px;
+}
+.insurancetext {
+/* Style for "Страховани" */
+width: 363px;
+height: 39px;
+color: #000000;
+font-family: 'SFUI-Display-Semibold';
+font-size: 52px;
+font-weight: 400;
+line-height: 72px;
+text-transform: uppercase;
+/* Text style for "С, трахова" */
+letter-spacing: -1.3px;
+padding-top: 43px;
+margin-left: 90px;
+}
+.passport {
+/* Style for "Загран пас" */
+width: 601px;
+height: 539px;
+margin-left: 100px;
+float: left;
+padding-top: 70px;
+}
+.passport1 {
+/* Style for "background" */
+width: 601px;
+height: 329px;
+background: url(../images/backgroundpassport.jpg);
+}
+.whiteframepassport {
+/* Style for "white fram" */
+width: 595px;
+height: 210px;
+border: 3px solid #4d4d4d;
+}
+.greenline7 {
+/* Style for "green line" */
+width: 149px;
+height: 7px;
+margin-left: 90px;
+padding-top: 33px;
+}
+.passporttext {
+/* Style for "Загранпасп" */
+width: 461px;
+height: 39px;
+color: #000000;
+font-family: 'SFUI-Display-Semibold';
+font-size: 52px;
+font-weight: 400;
+line-height: 72px;
+text-transform: uppercase;
+/* Text style for "Загранпасп" */
+letter-spacing: -1.3px;
+padding-top: 43px;
+margin-left: 90px;
+}
+.education {
+/* Style for "Образовани" */
+width: 601px;
+height: 539px;
+float: right;
+padding-right: 80px;
+padding-top: 70px;
+}
+.education1 {
+/* Style for "background" */
+width: 601px;
+height: 329px;
+background: url(../images/backgroundeducation.jpg);
+}
+.whiteframeeducation {
+/* Style for "white fram" */
+width: 595px;
+height: 210px;
+border: 3px solid #4d4d4d;
+}
+.greenline8 {
+/* Style for "green line" */
+width: 149px;
+height: 7px;
+margin-left: 90px;
+padding-top: 33px;
+}
+.educationtext {
+  /* Style for "Образовани" */
+width: 367px;
+height: 94px;
+color: #000000;
+font-family: 'SFUI-Display-Semibold';
+font-size: 52px;
+font-weight: 400;
+line-height: 55px;
+text-transform: uppercase;
+/* Text style for "Образовани" */
+letter-spacing: -1.3px;
+padding-top: 43px;
+margin-left: 90px;
+}
+.part3 {
+  /* Style for "Part_3-Наш" */
+width: 1289px;
+height: 289px;
+display: inline;
+}
+.ourpartners {
+/* Style for "Наши партн" */
+
+height: 38px;
+color: #000000;
+font-family: 'SFUI-Display-Semibold';
+font-size: 52px;
+font-weight: 400;
+line-height: 300px;
+text-transform: uppercase;
+/* Text style for "Н, аши пар" */
+letter-spacing: -1.3px;
+margin-left: 290px;
+}
+.ourpartners1 {
+/* Style for "Coral Trav" */
+width: 498px;
+height: 105px;
+margin-left: 220px;
+float: left;
+padding-top: 220px;
+}
+.ourpartners2 {
+/* Style for "Tez tour l" */
+width: 407px;
+height: 129px;
+float: right;
+padding-right: 150px;
+padding-top: 200px; 
 }
