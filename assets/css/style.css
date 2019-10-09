@@ -332,16 +332,17 @@ header {
   margin-left: 8%;
 }
 .saletours{
-  width: 601px;
+  width: 100%;
   height: 539px;
   margin-left: 100px;
   float: left;
 }
 .saletours1 {
-  width: 601px;
+  width: 50%;
   height: 329px;
   background: url(../images/backgroundtours.jpg);
   line-height: 10px;
+  background-repeat: no-repeat;
 }
 .whiteframeall {
   width: 595px;
@@ -355,7 +356,7 @@ header {
   padding-top: 33px;
 }
 .saletourstext {
-  width: 100;
+  width: 100%;
   height: 45px;
   color: #000000;
   font-family: 'SFUI-Display-Semibold';
@@ -368,35 +369,35 @@ header {
   margin-left: 90px;
 }
 .travelsim {
-  width: 601px;
+  width: 41%;
   height: 539px;
   float: right;
   padding-right: 80px;
 }
 .travelsim1 {
-  width: 601px;
+  width: 0%;
   height: 329px;
 }
 .aviaticket {
-  width: 601px;
+  width: 100%;
   height: 539px;
   margin-left: 100px;
   float: left;
   padding-top: 70px;
 }
 .aviaticket1 {
-  width: 601px;
+  width: 50%;
   height: 329px;
 }
 .insurance {
-  width: 601px;
+  width: 41%;
   height: 539px;
   float: right;
   padding-right: 80px;
   padding-top: 70px;
 }
 .insurance1 {
-  width: 601px;
+  width: 0%;
   height: 329px;
 }
 .passport {
@@ -411,14 +412,14 @@ header {
   height: 329px;
 }
 .education {
-  width: 601px;
+  width: 41%;
   height: 539px;
   float: right;
   padding-right: 80px;
   padding-top: 70px;
 }
 .education1 {
-  width: 601px;
+  width: 0%;
   height: 329px;
 }
 .educationtext {
@@ -789,9 +790,12 @@ input[type="submit"] {
   font-family: 'SFUI-Display-Light';
   font-size: 14px;
   font-weight: 300;
-  line-height: 42px;
+  line-height: 1%;
   text-transform: uppercase;
   letter-spacing: -0.35px;
   float: none;
-  
+  border-color: transparent;
 }
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #000000; 
+} 
